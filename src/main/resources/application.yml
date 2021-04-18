@@ -9,7 +9,7 @@ spring:
         git:
           uri: https://github.com/janakgithub/environment-variable-repo.git
           username: janakgithub
-          password: Jiaa@1623
+          password: ******
 
 server:
   port: ${port:8888}
