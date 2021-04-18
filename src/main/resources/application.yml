@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: janak-spring-cloud-config-server
+  profiles:
+    active: dev
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/janakgithub/environment-variable-repo.git
+          username: janakgithub
+          password: Jiaa@1623
+
+server:
+  port: ${port:8888}
+
